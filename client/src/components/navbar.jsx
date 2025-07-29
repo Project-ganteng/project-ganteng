@@ -5,7 +5,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function ProjectNavbar() {
     return (
-        <Navbar expand="lg" className="project-bg-green">
+        <Navbar expand="lg" className="project-bg-lime">
             <Container>
                 <Navbar.Brand>Project Ganteng</Navbar.Brand>
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />

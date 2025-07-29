@@ -1,10 +1,33 @@
 .project-bg-lime{
-    background-color:rgb(200,250,100);
+    background-color:rgb(182, 210, 127);
+}
+.project-tx-lime{
+    color:rgb(182, 210, 127);
 }
 .project-bg-dark{
     background-color:rgb(100,115,100)
 }
+.project-bg-light{
+    background-color:rgb(236, 230, 225)
+}
+.project-bg-light2{
+    background-color:rgb(220, 210, 202)
+}
+.project-center{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
 .project-split{
     display:grid;
     grid-template-columns:400px auto;
+}
+.project-tall{
+    grid-template-rows:100vh;
+}
+.project-p20{
+    padding:20px;
+}
+.project-r20{
+    border-radius:20px;
 }
