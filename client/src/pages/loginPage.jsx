@@ -1,5 +1,5 @@
 import ProjectNavbar from "../components/navbar.jsx"
-import LoginForm from "../components/loginForm.jsx"
+import ProjectLoginForm from "../components/loginForm.jsx"
 import {useNavigate} from "react-router"
 import {useState} from "react"
 
@@ -17,7 +17,7 @@ export default function LoginPage(){
             <div className="project-center project-bg-light">
                 <div className="project-bg-light2 project-r20 project-p20">
                     <h1>Login</h1>
-                <LoginForm/>
+                    <ProjectLoginForm/>
                 </div>
             </div>
             
