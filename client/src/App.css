@@ -1,0 +1,10 @@
+.project-bg-lime{
+    background-color:rgb(200,250,100);
+}
+.project-bg-dark{
+    background-color:rgb(100,115,100)
+}
+.project-split{
+    display:grid;
+    grid-template-columns:400px auto;
+}

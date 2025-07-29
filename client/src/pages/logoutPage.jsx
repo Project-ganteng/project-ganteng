@@ -1,14 +1,14 @@
 import {useNavigate} from "react-router"
 import {useEffect} from "react"
 
-export default function IndexPage(){
+export default function LogoutPage(){
     const navigate=useNavigate()
     function f(){
-        navigate("/home")
+        localStorage.removeItem("username")
+        navigate("/login")
     }
-    useEffect(f(),[])
     return(
-        <div>
+        <div onSomething={f()}>
         </div>
     )
 }

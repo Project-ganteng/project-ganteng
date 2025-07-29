@@ -6,6 +6,7 @@ import './App.css'
 import IndexPage from "./pages/indexPage.jsx"
 import LoginPage from "./pages/loginPage.jsx"
 import HomePage from "./pages/homePage.jsx"
+import LogoutPage from "./pages/logoutPage.jsx"
 
 function App() {
 
@@ -16,7 +17,7 @@ function App() {
           <Route path="/" element={<IndexPage/>}/>
           <Route path="/login" element={<LoginPage/>}/>
           <Route path="/home" element={<HomePage/>}/>
-          
+          <Route path="/logout" element={<LogoutPage/>}/>
         </Routes>
       </BrowserRouter>
     </div>
