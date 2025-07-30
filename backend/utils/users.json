@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "email": "malik@mail.com",
+    "password": "$2b$10$xKYgAfGhSdFBxB4Vx5L0ROeKeKGIskxIa5mikZl0uGJq8TlD9Brmq",
+    "createdAt": "2025-07-29T15:41:43.454Z",
+    "updatedAt": "2025-07-29T15:41:43.454Z"
+  },
+  {
+    "id": 2,
+    "email": "ilham@mail.com",
+    "password": "$2b$10$jRnweEanJiihJS5MVClHO.L6Tih7hVWLIC.38jTXsScDt80GNFdZC",
+    "createdAt": "2025-07-29T15:54:23.432Z",
+    "updatedAt": "2025-07-29T15:54:23.432Z"
+  },
+  {
+    "id": 3,
+    "email": "test@test.com",
+    "password": "$2b$10$HXDL98JG9VBMm73/.8Ze0.86a2IyT2Cx7c1ez61UYFvQxJoe1kVWe",
+    "createdAt": "2025-07-29T16:08:08.085Z",
+    "updatedAt": "2025-07-29T16:08:08.085Z"
+  }
+]
