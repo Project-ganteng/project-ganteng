@@ -1,48 +1,42 @@
-.project-bg-lime{
-    background-color:rgb(182, 210, 127);
-}
-.project-tx-lime{
-    color:rgb(182, 210, 127);
-}
-.project-bg-dark{
-    background-color:rgb(100,115,100)
-}
-.project-bg-light{
-    background-color:rgb(236, 230, 225)
-}
-.project-bg-light2{
-    background-color:rgb(220, 210, 202)
-}
-.project-center{
-    display:flex;
-    justify-content:center;
-    align-items:center;
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
 }
 
-.project-descending{
-    display:flex;
-    flex-direction: column;
-    justify-content:center;
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
 }
-.project-sideways-right{
-    display:flex;
-    flex-direction: row;
-    justify-content:center;
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
-.project-split{
-    display:grid;
-    grid-template-columns:400px auto;
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
-.project-tall{
-    grid-template-rows:100vh;
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
 }
-.project-p20{
-    padding:20px;
+
+.card {
+  padding: 2em;
 }
-.project-gy10{
-    column-gap:10px;
-}
-.project-r20{
-    border-radius:20px;
+
+.read-the-docs {
+  color: #888;
 }
