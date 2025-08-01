@@ -1,0 +1,41 @@
+[
+  {
+    "id": "1753845298094",
+    "name": "abc",
+    "description": "",
+    "createdBy": 1,
+    "createdById": 1,
+    "createdAt": "2025-07-30T03:14:58.094Z",
+    "participants": [
+      2
+    ],
+    "isPrivate": false,
+    "password": null
+  },
+  {
+    "id": "1753854964422",
+    "name": "123",
+    "description": "123",
+    "createdBy": 1,
+    "createdById": 1,
+    "createdAt": "2025-07-30T05:56:04.422Z",
+    "participants": [
+      1
+    ],
+    "isPrivate": false,
+    "password": null
+  },
+  {
+    "id": "1753855350952",
+    "name": "123",
+    "description": "123",
+    "createdBy": 1,
+    "createdById": 1,
+    "createdAt": "2025-07-30T06:02:30.952Z",
+    "participants": [
+      1
+    ],
+    "isPrivate": false,
+    "password": null
+  }
+]
